@@ -11,7 +11,7 @@ st.set_page_config(page_title="Bottle Defect Detector", layout="wide")
 
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model('bottle_autoencoder.h5')
+    return tf.keras.models.load_model('bottle_autoencoder.keras')
 
 autoencoder = load_model()
 
