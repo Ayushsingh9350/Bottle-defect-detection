@@ -85,5 +85,5 @@ TensorFlow/Keras · NumPy · scikit-learn (metrics) · Streamlit (deployment) ·
 ├── requirements.txt
 ├── bottle_autoencoder.h5   # trained model
 ├── notebook.ipynb          # training + evaluation notebook
-└── assets/                 # sample heatmap images for this README
+
 ```
